@@ -12,7 +12,7 @@ import ListaCategoria from './components/categorias/listaCategoria/ListaCategori
 import CadastroCategoria from './components/categorias/cadastroCategoria/CadastroCategoria';
 import DeletarCategoria from './components/categorias/deletarCategoria/DeletarCategoria';
 import store from './store/store';
-import ListaProduto from './components/produtos/listaProduto/ListaProduto';
+import ListaProduto from './components/produtos/listaProduto/listaProduto';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import DeletarProdutos from './components/produtos/deletarProdutos/DeletarProdutos';

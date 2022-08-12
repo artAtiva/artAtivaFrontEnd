@@ -118,7 +118,9 @@ if(token === ""){
        component="div"
        sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
      >
+      <Link to="/" className="text-decorator-none cursor">
       <img src="https://images-ext-2.discordapp.net/external/zHKaw0ij_SdecgNwb3GbHXqvHyuYKxWvM7fkGCVmPw8/https/i.imgur.com/UGVgV8w.png" alt="" />
+      </Link>
      </Typography>
      <Search className="search">
        <SearchIconWrapper>
@@ -208,7 +210,9 @@ if(token === ""){
       component="div"
       sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
     >
+      <Link to="/" className="text-decorator-none cursor">
       <img src="https://images-ext-2.discordapp.net/external/zHKaw0ij_SdecgNwb3GbHXqvHyuYKxWvM7fkGCVmPw8/https/i.imgur.com/UGVgV8w.png" alt="" />
+      </Link>
     </Typography>
     <Search className="search">
       <SearchIconWrapper>

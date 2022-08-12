@@ -7,7 +7,7 @@ import Produto from '../../../models/Produto';
 import { busca } from '../../../services/Service';
 import { TokenState } from '../../../store/tokens/tokensReduce';
 import {toast} from 'react-toastify';
-import './ListaProduto.css'
+import './listaProduto.css'
 
 function ListaProduto() {
   const [produtos, setProduto] = React.useState<Produto[]>([]);
