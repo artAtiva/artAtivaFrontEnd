@@ -11,31 +11,33 @@ function SobreNos() {
     <>
       <Grid container spacing={3} columns={12} className="sobrenos-container">
         <Grid item xs={12} className="title-container">
-          <hr></hr>
-          <Typography variant="h4" component="h1" className="title-sobrenos">
+          <Box className='linha'></Box>
+          <Typography className="tituloInicial">
             Sobre nós
           </Typography>
-          <hr></hr>
+          <Box className='linha'></Box>
         </Grid>
-        <Box className="card-fulano">
+
+
+        <Box className="cardCompleto">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQGxSIvhVXB69A/profile-displayphoto-shrink_800_800/0/1659149033289?e=1665014400&v=beta&t=6SEDZLQ_kRk2sjiuhbS3bDe6U4lwYl6sNpXtaElSISY"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Diego
             </Button>
-            <Box className="parte-texto-icones">
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="text-sobrenos"
+
+            <Box className="boxTexto">
+              <Typography className="text-sobrenos"
               >Sou estudante do Curso Técnico em Informática, no Senac-Campinas e
                 do Bootcamp de Desenvolvimento WEB - JAVA na Generation Brasil.
                 Minhas áreas de interesse são: Desenvolvimento WEB e Redes/Infraestrutura.
                 Me considero uma pessoa curiosa, comunicativa e adoro aprender novas habilidades.
               </Typography>
+
+
               <Box className="redessociais">
                 <a href="https://www.linkedin.com/in/ogeidc/overlay/contact-info/" target="_blank" rel="noopener noreferrer"  className="redessociais">
                   <InstagramIcon className="footer-icon2 redes-icon" />
@@ -43,7 +45,7 @@ function SobreNos() {
                 <a href="https://github.com/ogeidc" target="_blank" rel="noopener noreferrer"  className="redessociais">
                   <GitHubIcon className="footer-icon2 redes-icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/ogeidc/" target="_blank" rel="noopener noreferrer"  className="redessociais">
+                <a href="https://www.linkedin.com/in/ogeidc/" target="_blank" rel="noopener noreferrer" className="redessociais">
                   <LinkedInIcon className="footer-icon2 redes-icon" />
                 </a>
               </Box>
@@ -51,21 +53,18 @@ function SobreNos() {
           </Box>
         </Box>
 
-        <Box className="card-fulano2">
+        <Box className="cardCompleto2">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQEQJegmzXihzw/profile-displayphoto-shrink_800_800/0/1647425416180?e=1665014400&v=beta&t=1FtjDEhGOFIKr2kQ_oomKK51NvH88Fuw_U4gqFpYD7I"
             alt="avatar"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Felipe
             </Button>
-            <Box className="parte-texto-icones">
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="text-sobrenos">
+            <Box className="boxTexto">
+              <Typography className="text-sobrenos">
                 Desenvolvedor de software trainee, cursando o 4 semestre de gestão da
                 tecnologia da informação na Fatec de Franco da Rocha.
               </Typography>
@@ -84,21 +83,18 @@ function SobreNos() {
           </Box>
         </Box>
 
-        <Box className="card-fulano">
+        <Box className="cardCompleto">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQEMjUfTMFt9pw/profile-displayphoto-shrink_800_800/0/1566680216478?e=1665014400&v=beta&t=ji96xADiYbVhk1cHfe4vsDHVu2YHf581XGOIz4Hg2Rk"
             alt="avatar"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Hericlis
             </Button>
-            <Box className="parte-texto-icones">
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="text-sobrenos"
+            <Box className="boxTexto">
+              <Typography className="text-sobrenos"
               >Estudante Desenvolvimento de Sistemas atualmente buscando ingressar na
                 área de tecnologia da informação. Tenho conhecimentos em ferramentas de
                 desenvolvimento front-end, lógica de programação e desenvolvimento back-end.
@@ -119,20 +115,18 @@ function SobreNos() {
         </Box>
 
 
-        <Box className="card-fulano2">
+        <Box className="cardCompleto2">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQHNu4WbuKYSDw/profile-displayphoto-shrink_800_800/0/1658838501880?e=1665014400&v=beta&t=YbLPVFJjH0dwqqBceA_yFtrxaNifoK1J0rZfmtNnppw"
             alt="avatar"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Isabella
             </Button>
-            <Box className="parte-texto-icones">
+            <Box className="boxTexto">
               <Typography
-                variant="body2"
-                color="text.secondary"
                 className="text-sobrenos">
                 Engenheira Cartógrafa e Agrimensora pela UNESP, Desenvolvedora Jr. pela Generation
                 Brasil, estudante de Análise e Desenvolvimento de Sistemas e mestranda na area de
@@ -153,21 +147,18 @@ function SobreNos() {
           </Box>
         </Box>
 
-        <Box className="card-fulano">
+        <Box className="cardCompleto">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQEh8Wyx6WI7qA/profile-displayphoto-shrink_800_800/0/1654045375745?e=1665014400&v=beta&t=LIgyK4SzVKo-RrVTcCtJhiGwzyLXKGU2F423L8jvzMU"
             alt="avatar"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Janis
             </Button>
-            <Box className="parte-texto-icones">
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="text-sobrenos"
+            <Box className="boxTexto">
+              <Typography className="text-sobrenos"
               >
                 Estudante em Desenvolvimento Java Full Stack | Design Gráfico
               </Typography>
@@ -187,21 +178,18 @@ function SobreNos() {
         </Box>
 
 
-        <Box className="card-fulano2">
+        <Box className="cardCompleto2">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQEmsCWHIoFQrg/profile-displayphoto-shrink_800_800/0/1625076494079?e=1665014400&v=beta&t=o7tJKHED4Sga9s7Cwj01D4d9l999TXgMbXANQOFkweA"
             alt="avatar"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Matheus
             </Button>
-            <Box className="parte-texto-icones">
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="text-sobrenos">
+            <Box className="boxTexto">
+              <Typography className="text-sobrenos">
                 Desenvolvedor Java Web. Formado em Analise e desenvolvimento de sistemas
               </Typography>
               <Box className="redessociais">
@@ -219,21 +207,20 @@ function SobreNos() {
           </Box>
         </Box>
 
-        <Box className="card-fulano">
+
+
+        <Box className="cardCompleto">
           <img
             src="https://media-exp1.licdn.com/dms/image/C4E03AQEAI5hDRB2W-Q/profile-displayphoto-shrink_800_800/0/1637800682157?e=1665014400&v=beta&t=ZiZF7QO4IEYYV1xDYnSnKIPqEZpjjamj343LZPrPw5o"
             alt="avatar"
-            className="avatar"
-          />
-          <Box className="card-fulano-text">
-            <Button variant="text" className="botao-nav">
+            className="avatar"/>
+
+          <Box className="card-fulano">
+            <Button variant="outlined" className="boxNome">
               Rosa
             </Button>
-            <Box className="parte-texto-icones">
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="text-sobrenos"
+            <Box className="boxTexto">
+              <Typography className="text-sobrenos"
               >
                 Formada em Administração de Empresas, com paixão em tecnologia, trilhando uma nova jornada
                 como desenvolvedora fullstack Java, terminando o Bootcamp na Generation Brasil e
