@@ -85,7 +85,7 @@ function SobreNos() {
 
         <Box className="cardCompleto">
           <img
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQEMjUfTMFt9pw/profile-displayphoto-shrink_800_800/0/1566680216478?e=1665014400&v=beta&t=ji96xADiYbVhk1cHfe4vsDHVu2YHf581XGOIz4Hg2Rk"
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQFNw4IZRcPpyA/profile-displayphoto-shrink_800_800/0/1660858072099?e=1666828800&v=beta&t=U5w98vyiN7yUalbPtU1Jhxezn-91ZSJQF8DYN-Pb52U"
             alt="avatar"
             className="avatarSobreNos"/>
 

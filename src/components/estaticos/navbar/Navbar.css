@@ -23,6 +23,11 @@
     margin-right: 5px;
     font-size: 14px!important;
 }
+.texto-whats {
+    font-family: Helvetica !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+}
 .botoes-top{
     width: 100%;
     font-size: 10px!important;

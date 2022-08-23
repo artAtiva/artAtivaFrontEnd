@@ -64,21 +64,26 @@ React.useEffect(() => {
             <button className="saibaMais"><Link to="/sobrenos" className="text-decorator-none cursor linkSaiba" >Saiba Mais</Link></button>
             
           </div>
+          <div className="talvezVoceGoste talvezVoceGosteHome">
+          <hr className="linha" />
+          <div className="tituloInicial"> Ongs Parceiras</div>
+          <hr className="linha" />
+        </div>
           <div className="quemSomosBottom">
             <div className="quemSomosCard">
-              <img src="https://avatars.githubusercontent.com/u/102499242?v=4" alt="" />
+              <img src="https://www.anf.org.br/wp-content/uploads/2019/06/aurora.jpg" alt="" />
               <div className="cardBottomQuemSomos">
                 <button className="saibaMaisBottom">Saiba Mais</button>
               </div>
             </div>
             <div className="quemSomosCard">
-              <img src="https://avatars.githubusercontent.com/u/106316122?v=4" alt="" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHldPOy2pBh_YBQB_ofg1KT1l-BWgNbmJ4g&usqp=CAU" alt="" />
               <div className="cardBottomQuemSomos">
                 <button className="saibaMaisBottom">Saiba Mais</button>
               </div>
             </div>
             <div className="quemSomosCard">
-              <img src="https://avatars.githubusercontent.com/u/105821392?v=4" alt="" />
+              <img src="https://storage.googleapis.com/atados-v3/user-uploaded/images/a77f52ff-fa4b-401a-bfae-ff0fe679a015.jpg" alt="" />
               <div className="cardBottomQuemSomos">
                 <button className="saibaMaisBottom">Saiba Mais</button>
               </div>

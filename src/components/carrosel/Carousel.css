@@ -3,11 +3,11 @@
   margin: 0 auto!important;
   height: 320px!important;
   margin-top: -50px!important;
+  text-decoration: none;
 }
 
+
 .img-carrosel{
-  border-radius: 25px 25px 25px 25px!important;
   width: 100%;
-  height: auto;
   object-fit: cover;
 }

@@ -7,13 +7,13 @@ import { Grid } from "@mui/material";
 function Carrosel() {
   var items = [
     {
-      img: "https://maisarteblog.files.wordpress.com/2016/06/panorc3a2mica-3.jpg?w=1680",
+      img: "https://i.imgur.com/4WWxL4X.png",
     },
     {
-      img: "https://static.todamateria.com.br/upload/oq/ue/o-que-sao-artes-visuais-og.jpg",
+      img: "https://i.imgur.com/4HKmWzE.png",
     },
     {
-      img: "https://artout.com.br/wp-content/uploads/2019/01/Arte-Contempor%C3%A2nea-3.jpg",
+      img: "https://i.imgur.com/Ez9gmv3.png",
     },
   ];
 

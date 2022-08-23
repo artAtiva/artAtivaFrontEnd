@@ -10,13 +10,13 @@ a {
 .footer-box {
     display: flex;
     justify-content: space-between;
-    width: 1120px;
+    width: 1020px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .footer-title {
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: bold !important;
     margin-bottom: 5px !important;
 }
