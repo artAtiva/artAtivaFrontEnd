@@ -13,7 +13,7 @@ function Carrosel() {
       img: "https://imgur.com/OmUZiIk.png",
     },
     {
-      img: "https://imgur.com/E2eud95.png",
+      img: "https://imgur.com/CEimMW5.png",
     },
   ];
 

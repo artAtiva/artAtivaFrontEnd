@@ -96,10 +96,10 @@ React.useEffect(() => {
           <hr className="linha" />
         </div>
         <div className="produtosRecomendados produtosRecomendadosHome">
-            <CardProduto nome={"Produto"} descricao={"descricao"} preco={25} />
-            <CardProduto nome={"Produto"} descricao={"descricao"} preco={25} />
-            <CardProduto nome={"Produto"} descricao={"descricao"} preco={25} />
-            <CardProduto nome={"Produto"} descricao={"descricao"} preco={25} />
+            <CardProduto imagem={"https://imgur.com/Q7RrLv0.png"} nome={"Almofada Nuvem"} descricao={"Almofada para quarto de bebê"} preco={20} />
+            <CardProduto imagem={"https://imgur.com/9Wj9UCb.png"} nome={"Manta de Tricô"} descricao={"Manta fofinha de tricô para o inverno"} preco={49} />
+            <CardProduto imagem={"https://imgur.com/VhuuSkK.png"} nome={"Quadro Passarinho Bordado"} descricao={"Feito à mão, este quadro foi bordado em uma folha seca"} preco={35} />
+            <CardProduto imagem={"https://imgur.com/4oVxOiC.png"} nome={"Quadro Brasil"} descricao={"Quadro com moldura de madeira"} preco={15} />
         </div>
       </Grid>
       
