@@ -165,7 +165,7 @@ function SobreNos() {
                 Sou uma pessoa proativa, organizada e atenta aos detalhes.
               </Typography>
               <Box className="redessociais">
-                <a href="https://www.instagram.com/jan_s__/" target="_blank" rel="noopener noreferrer"  className="redessociais">
+                <a href="https://www.instagram.com/jan_s__/gi" target="_blank" rel="noopener noreferrer"  className="redessociais">
                   <InstagramIcon className="footer-icon redes-icon" />
                 </a>
                 <a href="https://github.com/JanisSilva" target="_blank" rel="noopener noreferrer"  className="redessociais">
