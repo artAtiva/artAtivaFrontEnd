@@ -7,13 +7,13 @@ import { Grid } from "@mui/material";
 function Carrosel() {
   var items = [
     {
-      img: "https://i.imgur.com/4WWxL4X.png",
+      img: "https://imgur.com/rxuxi0h.png",
     },
     {
-      img: "https://i.imgur.com/4HKmWzE.png",
+      img: "https://imgur.com/OmUZiIk.png",
     },
     {
-      img: "https://i.imgur.com/Ez9gmv3.png",
+      img: "https://imgur.com/E2eud95.png",
     },
   ];
 

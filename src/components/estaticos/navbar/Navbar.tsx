@@ -17,6 +17,7 @@ import { addToken } from "../../../store/tokens/actions";
 import { toast } from 'react-toastify';
 import { buscaNome } from "../../../services/Service";
 
+
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
   borderRadius: `25px`,
@@ -113,13 +114,13 @@ function Navbar() {
           </Box>
           <Box className="botoesNav" >
             <Link to="/login" className="text-decorator-none cursor">
-              <Button className="botoes-top" color="inherit">
+              <Button className="texto-logcad botoes-top" color="inherit">
                 Login
               </Button>
             </Link>{" "}
             |{" "}
             <Link to="/cadastrousuario" className="text-decorator-none cursor">
-              <Button className="botoes-top" color="inherit">
+              <Button className="texto-logcad botoes-top" color="inherit">
                 Cadastrar
               </Button>
             </Link>
@@ -157,7 +158,7 @@ function Navbar() {
         <Box className="box-botoes-sobrenos-contato">
           <Link to="/sobrenos" className="text-decorator-none cursor">
             <Button className="botoes-sobrenos-contato" variant="text" >
-              Quem somos
+              Sobre nós
             </Button>
           </Link>{" "}
           |{" "}
@@ -204,33 +205,33 @@ function Navbar() {
             </Box>
             <Box className="botoesNav">
               <Link to="/cadastroprodutos" className="text-decorator-none cursor">
-                <Button className="botoes-top" color="inherit">
+                <Button className="texto-logcad botoes-top" color="inherit">
                   Cadastro produtos
                 </Button>
               </Link>
               |
               {" "}
               <Link to="/produtos" className="text-decorator-none cursor">
-                <Button className="botoes-top" color="inherit">
+                <Button className="texto-logcad botoes-top" color="inherit">
                   Produtos
                 </Button>
               </Link>
               |
               {" "}
               <Link to="/cadastrocategoria" className="text-decorator-none cursor">
-                <Button className="botoes-top" color="inherit">
+                <Button className="texto-logcad botoes-top" color="inherit">
                   Cadastrar categoria
                 </Button>
               </Link>
               |
               <Link to="/categorias" className="text-decorator-none cursor">
-                <Button className="botoes-top" color="inherit">
+                <Button className="texto-logcad botoes-top" color="inherit">
                   Categoria
                 </Button>
               </Link>
               |
               <Link to="/login" className="text-decorator-none cursor">
-                <Button onClick={goLogout} className="botoes-top" color="inherit">
+                <Button onClick={goLogout} className="texto-logcad botoes-top" color="inherit">
                   Logout
                 </Button>
               </Link>{" "}
@@ -266,7 +267,7 @@ function Navbar() {
           <Box className="box-botoes-sobrenos-contato">
             <Link to="/sobrenos" className="text-decorator-none cursor">
               <Button className="botoes-sobrenos-contato" variant="text" >
-                Quem somos
+                Sobre nós
               </Button>
             </Link>{" "}
             |{" "}

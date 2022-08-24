@@ -35,7 +35,7 @@ React.useEffect(() => {
     <>
     
       <Grid container spacing={3} columns={12} className="home-container">
-        <Grid item xs={12}>
+        <Grid item xs={12} className='marginCarrossel'>
           <Carrosel/>
         </Grid>
         <Grid item xs={12} className="title-container">
@@ -58,32 +58,32 @@ React.useEffect(() => {
         ))}
         <div className="quemSomos">
           <div className="quemSomosTopo">
-            <h1 className="titleQuemSomosHome">Quem Somos</h1>
+            <h1 className="titleQuemSomosHome">Sobre nós</h1>
             <h4 className="subTitleQuemSomosHome">Vem dar uma olhada na nossa equipe</h4>
             
             <button className="saibaMais"><Link to="/sobrenos" className="text-decorator-none cursor linkSaiba" >Saiba Mais</Link></button>
             
           </div>
-          <div className="talvezVoceGoste talvezVoceGosteHome">
+          <div className="talvezVoceGoste">
           <hr className="linha" />
-          <div className="tituloInicial"> Ongs Parceiras</div>
+          <div className="tituloInicialHome2">Ongs Parceiras</div>
           <hr className="linha" />
         </div>
           <div className="quemSomosBottom">
             <div className="quemSomosCard">
-              <img src="https://www.anf.org.br/wp-content/uploads/2019/06/aurora.jpg" alt="" />
+              <img src="https://imgur.com/2gsGcyY.png" alt="" />
               <div className="cardBottomQuemSomos">
                 <button className="saibaMaisBottom">Saiba Mais</button>
               </div>
             </div>
             <div className="quemSomosCard">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHldPOy2pBh_YBQB_ofg1KT1l-BWgNbmJ4g&usqp=CAU" alt="" />
+              <img src="https://imgur.com/dO598Ss.png" alt="" />
               <div className="cardBottomQuemSomos">
                 <button className="saibaMaisBottom">Saiba Mais</button>
               </div>
             </div>
             <div className="quemSomosCard">
-              <img src="https://storage.googleapis.com/atados-v3/user-uploaded/images/a77f52ff-fa4b-401a-bfae-ff0fe679a015.jpg" alt="" />
+              <img src="https://imgur.com/p3Iqz5r.png" alt="" />
               <div className="cardBottomQuemSomos">
                 <button className="saibaMaisBottom">Saiba Mais</button>
               </div>
@@ -92,7 +92,7 @@ React.useEffect(() => {
         </div>
         <div className="talvezVoceGoste talvezVoceGosteHome">
           <hr className="linha" />
-          <div className="tituloInicial">Recomendados</div>
+          <div className="tituloInicialHome3">Recomendados</div>
           <hr className="linha" />
         </div>
         <div className="produtosRecomendados produtosRecomendadosHome">

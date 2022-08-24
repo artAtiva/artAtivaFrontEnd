@@ -93,5 +93,8 @@ button:hover {
 }
 
 .cop {
+    font-family: 'Inter' !important;
+    font-weight: 200;
     font-size: 12px !important;
+    text-transform: none !important;
 }

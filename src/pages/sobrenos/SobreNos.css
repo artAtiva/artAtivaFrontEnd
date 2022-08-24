@@ -56,6 +56,7 @@
 .boxNome{
     color: #F04644 !important;
     text-transform: none !important;
+    background-color: #ffffff !important;
     border: 2px solid #EF8C0A!important;
     border-radius: 20px!important;
     width: 135px!important;

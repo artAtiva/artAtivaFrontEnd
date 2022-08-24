@@ -64,7 +64,7 @@ function SobreNos() {
             </Button>
             <Box className="boxTexto">
               <Typography className="text-sobrenos">
-                Desenvolvedor Full Stack, cursando o 4 semestre de gestão da tecnologia da informação na Fatec de Franco da Rocha.
+                Desenvolvedor Full Stack, cursando o 4º semestre de gestão da tecnologia da informação na Fatec de Franco da Rocha.
                 Atuo com Java + SpringBoot e ReactJS + Typescript. Sou uma pessoa organizada, aprendo rápido e
                 sou determinado.
               </Typography>
@@ -160,16 +160,18 @@ function SobreNos() {
             <Box className="boxTexto">
               <Typography className="text-sobrenos"
               >
-                Estudante em Desenvolvimento Java Full Stack | Design Gráfico
+                Designer e Desenvolvedora Front-End cursando 4º semestre de Design Gráfico pela INFNET 
+                e formada em Java Full Stack pela Generation Brasil. Com habilidades em Photoshop, Illustrator, InDesign, After Effects, Figma, HTML, CSS e Typescript.
+                Sou uma pessoa proativa, organizada e atenta aos detalhes.
               </Typography>
               <Box className="redessociais">
-                <a href="https://www.linkedin.com/in/janis-silva/overlay/contact-info/" target="_blank" rel="noopener noreferrer"  className="redessociais">
+                <a href="https://www.instagram.com/jan_s__/" target="_blank" rel="noopener noreferrer"  className="redessociais">
                   <InstagramIcon className="footer-icon redes-icon" />
                 </a>
                 <a href="https://github.com/JanisSilva" target="_blank" rel="noopener noreferrer"  className="redessociais">
                   <GitHubIcon className="footer-icon redes-icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/janis-silva/" target="_blank" rel="noopener noreferrer"  className="redessociais">
+                <a href="https://www.linkedin.com/in/janis-silva/overlay/contact-info/" target="_blank" rel="noopener noreferrer"  className="redessociais">
                   <LinkedInIcon className="footer-icon redes-icon" />
                 </a>
               </Box>
